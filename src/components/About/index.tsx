@@ -25,7 +25,7 @@ const About = () => {
                     isEven ? "lg:flex-row-reverse" : "lg:flex-row"
                   } w-full h-fit`}
                 >
-                  <section className="flex flex-col items-center lg:items-start justify-center p-5 w-full lg:w-1/2">
+                  <section className="flex flex-col items-center lg:items-start justify-center p-5 max-sm:pb-14 w-full lg:w-1/2">
                     <section className="px-3 py-1 mt-5 lg:mt-0">
                       <h2 className="text-2xl lg:text-3xl font-bold mb-5">
                         {data.title}
