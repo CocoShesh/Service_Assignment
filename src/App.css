@@ -36,7 +36,3 @@ body {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(235, 242, 243, 0.3);
 }
-
-.real-estate {
-  background: url("./images/real_estate-bg.png");
-}
