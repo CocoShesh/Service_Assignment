@@ -3,7 +3,7 @@ import { ServiceData } from "../Plan/data";
 const About = () => {
   return (
     <>
-      <section className="h-fit w-full  flex flex-col items-center justify-center text-center mt-10 px-6 lg:px-14 mb-24 lg:mb-44">
+      <section className="h-fit w-full  flex flex-col items-center justify-center text-center mt-10 px-4 md:px-14 mb-24 lg:mb-44">
         <section className="2xl:w-[1600px]">
           <h1 className="text-3xl lg:text-5xl font-bold">
             Over 33 Years of Real Estate Success
