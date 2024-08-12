@@ -10,7 +10,7 @@ export default {
         contact: "url('./images/contact-bg.png')",
       },
       screens: {
-        xs: "375px",
+        xs: "320px",
       },
     },
   },
