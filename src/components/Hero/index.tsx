@@ -32,7 +32,7 @@ const Hero = () => {
                 />
                 <IoSearch className="absolute top-5 left-3 text-lg text-[#bdb1b4]" />
               </section>
-              <button className="bg-[#525252] w-[300px] mt-5 text-lg h-14 text-white rounded-md">
+              <button className="bg-black text-white  w-[300px] mt-5 text-lg h-14 transition duration-300 ease-in-out transform hover:bg-white hover:text-black hover:border hover:border-gray-500 hover:scale-105 rounded-md">
                 BOOK AN APPOINTMENT
               </button>
 
