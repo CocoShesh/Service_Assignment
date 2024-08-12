@@ -2,7 +2,7 @@ import { MarketData } from "../Plan/data";
 const Market = () => {
   return (
     <>
-      <section className=" h-fit   flex  relative  justify-center  text-center w-full  bg-no-repeat  bg-plan  bg-cover before:bg-black before:absolute before:top-0 before:w-full  before:opacity-20  text-white before:h-full before:left-0  ">
+      <section className=" h-fit   flex  relative  justify-center  text-center w-full  bg-no-repeat  bg-estate  bg-cover before:bg-black before:absolute before:top-0 before:w-full  before:opacity-20  text-white before:h-full before:left-0  ">
         <section className="  2xl:w-[1700px]  pt-10  z-10  w-full   px-20 max-sm:px-8 flex flex-col h-full items-center   justify-between">
           <section>
             <h1 className=" text-6xl   max-md:text-5xl font-bold">
