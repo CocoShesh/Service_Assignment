@@ -28,7 +28,7 @@ const ContactUs = () => {
             </section>
           </section>
           <span className="text-xl mt-5"> Interested in exploring more? </span>
-          <button className="h-14 w-[220px]  rounded-lg bg-black text-white">
+          <button className="h-14 w-[220px]  rounded-lg bg-black text-white transition duration-300 ease-in-out transform hover:bg-white hover:text-black hover:border hover:border-gray-500 hover:scale-105">
             Book an appointment
           </button>
         </section>
@@ -73,7 +73,7 @@ const ContactUs = () => {
 
             <button
               type="submit"
-              className="h-12 w-[200px] bg-black text-white"
+              className="h-12 w-[200px] rounded-lg transition duration-300 ease-in-out transform hover:bg-white hover:text-black hover:border hover:border-gray-500 hover:scale-105 bg-black text-white"
             >
               {" "}
               Send Message{" "}
