@@ -3,7 +3,7 @@ const Newsletter = () => {
   return (
     <>
       <section className="h-[550px] mb-20 w-full   flex  items-center justify-center max-md:flex-col gap-10 px-14  py-10  max-md:px-0 max-lg:h-fit bg-[#888e93] text-white ">
-        <section className="2xl:w-[1700px] flex  max-md:flex-col gap-10">
+        <section className="2xl:w-[1700px] flex  w-full max-md:flex-col gap-10">
           <img
             src="./images/newsletter.png"
             alt=""
