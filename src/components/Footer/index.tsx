@@ -42,9 +42,13 @@ const Footer = () => {
             <img src="./images/logo2.webp" alt="" className="h-8" />
             <img src="./images/logo3.webp" alt="" className="h-5" />
           </section>
-          <section className="text-lg mt-2 max-lg:mb-5">
-            <span>Copyright 2024 | Privacy Policy </span> <br />
-            <span> Website Redesigned& Developed by Glenard Becerro</span>
+          <section className="text-[15px] mt-2 max-lg:mb-5 flex-col  flex">
+            <span>Copyright 2024 | Privacy Policy </span>
+            <span>
+              {" "}
+              Website Redesigned & Developed by
+              <strong className="text-blue-500"> Glenard Becerro </strong>{" "}
+            </span>
           </section>
         </section>
       </section>
