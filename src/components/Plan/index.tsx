@@ -4,7 +4,7 @@ const Plan = () => {
   return (
     <>
       <section className="flex flex-col mt-52 max-md:mt-20 justify-center items-center w-full    px-4 md:px-14 2xl:w-[1650px] h-fit">
-        <h1 className="text-4xl max-md:text-center max-md:text-3xl">
+        <h1 className="text-4xl max-md:text-center max-md:text-3xl font-bold">
           Comprehensive Marketing Plan
         </h1>
         <section className="flex gap-5 my-16  max-lg:grid max-lg:grid-cols-2 max-sm:grid-cols-1 ">
