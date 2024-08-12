@@ -9,7 +9,7 @@ const Hero = () => {
           className="h-full w-full object-cover"
           alt=""
         />
-        <section className="absolute bottom-0  h-[500px] w-[700px]  max-md:h-fit max-md:w-full    text-center flex-col gap-5">
+        <section className="absolute bottom-0 max-sm:-bottom-5  h-[500px] w-[700px]  max-md:h-fit max-md:w-full    text-center flex-col gap-5">
           <h1 className="text-white text-7xl font-serif mt-10">Services</h1>
           <img
             src="./images/security.png"
@@ -45,10 +45,10 @@ const Hero = () => {
                 experience like no other.
               </p>
             </section>
-            <section className="flex gap-5 items-center justify-center mt-5 flex-wrap">
-              <img src="./images/investors1.png" alt="" className="h-10" />
-              <img src="./images/investors2.png" alt="" className="h-10" />
-              <img src="./images/investors3.png" alt="" className="h-10" />
+            <section className="flex gap-5 items-center justify-center mt-5 flex-wrap max-sm:pb-5">
+              <img src="./images/investors1.png" alt="" className="h-8" />
+              <img src="./images/investors2.png" alt="" className="h-8" />
+              <img src="./images/investors3.png" alt="" className="h-8" />
               <img src="./images/logo1.webp" alt="" className="h-8" />
               <img src="./images/logo2.webp" alt="" className="h-8" />
               <img src="./images/logo3.webp" alt="" className="h-5" />
