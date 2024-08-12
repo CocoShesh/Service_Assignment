@@ -3,7 +3,7 @@ const Market = () => {
   return (
     <>
       <section className=" h-fit     flex  relative  justify-center  text-center w-full bg-real-state bg-no-repeat   bg-cover before:bg-black before:absolute before:top-0 before:w-full  before:opacity-20  text-white before:h-full before:left-0  ">
-        <section className=" pt-10   z-10  w-full   px-20 max-sm:px-8 flex flex-col items-center  h-full justify-between">
+        <section className="  2xl:w-[1700px] pt-10   z-10  w-full   px-20 max-sm:px-8 flex flex-col items-center  h-full justify-between">
           <section>
             <h1 className=" text-6xl   max-md:text-5xl font-bold">
               {" "}
@@ -12,7 +12,7 @@ const Market = () => {
             <h2 className="text-4xl max-md:text-2xl">
               Our Online Marketing Strategy
             </h2>
-            <p className="mt-5">
+            <p className="mt-5 2xl:text-2xl">
               ​​​​​​​The Bay Area remains one of the world's most sought-after
               regions to live in, and when looking to sell, it is vital that
               your home be marketed online to audiences locally, nationally, and
@@ -26,10 +26,12 @@ const Market = () => {
                 >
                   <img src={item.src} alt="" className="h-20 w-20" />
                   <section>
-                    <h2 className="text-xl text-center  font-bold">
+                    <h2 className="text-xl text-center 2xl:text-3xl  font-bold">
                       {item.title}
                     </h2>
-                    <p className="mt-10  text-sm">{item.description}</p>
+                    <p className="mt-10  text-sm 2xl:text-2xl">
+                      {item.description}
+                    </p>
                   </section>
                 </section>
               ))}
