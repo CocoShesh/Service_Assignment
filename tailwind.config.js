@@ -6,7 +6,7 @@ export default {
       backgroundImage: {
         plan: "url('./images/plan-bg-section.webp')",
         selling: "url('./images/Selling-bg.webp')",
-        estate: "url('/images/real-estate2.png.')",
+        estate: "url('/images/real-estate2.png')",
         contact: "url('./images/contact-bg.png')",
       },
       screens: {
