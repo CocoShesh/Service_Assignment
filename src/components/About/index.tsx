@@ -21,9 +21,8 @@ const About = () => {
                 className="flex flex-col items-center w-full cursor-pointer mb-10 lg:mb-0"
               >
                 <section
-                  className={`flex flex-col ${
-                    isEven ? "lg:flex-row-reverse" : "lg:flex-row"
-                  } w-full h-fit`}
+                  className={`flex flex-col-reverse 
+                  w-full h-fit`}
                 >
                   <section className="flex flex-col items-center lg:items-start justify-center p-5 max-sm:pb-14 w-full lg:w-1/2">
                     <section className="px-3 py-1 mt-5 lg:mt-0">
