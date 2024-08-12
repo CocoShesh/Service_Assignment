@@ -7,7 +7,7 @@ const Newsletter = () => {
           <img
             src="./images/newsletter.png"
             alt=""
-            className=" object-contain w-full"
+            className=" object-contain w-1/2 max-sm:w-full h-full"
           />
           <section className="w-full 2xl:w-full gap-5 flex 2xl:px-32 flex-col items-center justify-center pl-20 max-md:px-5 max-md:w-full">
             <h1 className="text-left text-4xl font-bold">
