@@ -12,7 +12,7 @@ import Showcase from "./components/Showcase";
 function App() {
   return (
     <>
-      <main className="h-fit border-2  ">
+      <main className="h-fit   ">
         <Hero />
         <Plan />
         <Showcase />
