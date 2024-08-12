@@ -3,7 +3,7 @@ import { marketingData } from "./data";
 const Plan = () => {
   return (
     <>
-      <section className="flex flex-col mt-52 justify-center items-center mx-14 w-full  max-md:mx-5 h-fit">
+      <section className="flex flex-col mt-52 justify-center items-center px-14 w-full  max-md:mx-5 h-fit">
         <section className="2xl:w-[1700px] ">
           <h1 className="text-4xl max-md:text-center max-md:text-3xl">
             Comprehensive Marketing Plan
