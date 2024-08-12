@@ -9,7 +9,7 @@ const SellingProcess = () => {
       <h2 className="text-2xl  max-sm:text-xl mb-10 text-gray-600">
         Our Step-by-Step Guide
       </h2>
-      <div className="flex flex-wrap gap-5 justify-center text-center">
+      <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-5 justify-center text-center">
         {BuyingsData.map((item, index) => (
           <div
             key={index}
