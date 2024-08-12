@@ -37,10 +37,10 @@ const Footer = () => {
             <FaFacebook />
             <FaLinkedin />
           </section>
-          <section className="flex gap-5 h-8 mt-3">
-            <img src="./images/logo1.webp" alt="" />
-            <img src="./images/logo2.webp" alt="" />
-            <img src="./images/logo3.webp" alt="" />
+          <section className="flex  items-center gap-5 h-8 mt-3">
+            <img src="./images/logo1.webp" alt="" className="h-8" />
+            <img src="./images/logo2.webp" alt="" className="h-8" />
+            <img src="./images/logo3.webp" alt="" className="h-5" />
           </section>
           <section className="text-lg mt-2 max-lg:mb-5">
             <span>Copyright 2024 | Privacy Policy </span> <br />
