@@ -3,7 +3,7 @@ import { BuyingsData } from "../Plan/data";
 const SellingProcess = () => {
   return (
     <section className="h-fit flex flex-col items-center justify-center px-14 pb-2 my-20">
-      <h1 className="text-5xl mb-4 font-bold max-md:text-4xl">
+      <h1 className="text-5xl mb-4 font-bold max-md:text-4xl max-xs:text-3xl">
         The Buying Process
       </h1>
       <h2 className="text-2xl mb-10 text-gray-600">Our Step-by-Step Guide</h2>

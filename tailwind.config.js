@@ -9,6 +9,9 @@ export default {
         "real-state": "url('./images/real-estate.png')",
         contact: "url('./images/contact-bg.png')",
       },
+      screens: {
+        xs: "375px",
+      },
     },
   },
   plugins: [],
