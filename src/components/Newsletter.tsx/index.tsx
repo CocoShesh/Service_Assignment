@@ -2,11 +2,11 @@ import { HiOutlineMail } from "react-icons/hi";
 const Newsletter = () => {
   return (
     <>
-      <section className="h-[550px] mb-20 w-full   flex  items-center justify-center max-lg:flex-col gap-10 px-14  pb-10  max-md:px-0 max-md:h-fit bg-[#888e93] text-white ">
+      <section className="h-[550px] mb-20 w-full   flex  items-center justify-center max-md:flex-col gap-10 px-14  py-10  max-md:px-0 max-lg:h-fit bg-[#888e93] text-white ">
         <img
           src="./images/newsletter.png"
           alt=""
-          className="w-[600px] 2xl:w-[900px] object-contain"
+          className="w-full  2xl:w-[900px] object-contain"
         />
         <section className="w-full 2xl:w-full gap-5 flex 2xl:px-32 flex-col items-center justify-center pl-20 max-md:px-5 max-md:w-full">
           <h1 className="text-left text-4xl font-bold">
